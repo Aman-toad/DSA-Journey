@@ -21,7 +21,7 @@ I am solving problems category-wise and maintaining clean folder-wise structure 
 
 | Topic              | Status     | Problems Solved |
 |-------------------|------------|------------------|
-| Basics             | ✅ Done     | 10               |
+| Basics             | ✅ Done     | 50+               |
 | Arrays             | 🚧 In Progress | --              |
 | Strings            | ❌ Not Started | --            |
 | Recursion          | ❌ Not Started | --            |
