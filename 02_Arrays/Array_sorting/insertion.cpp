@@ -4,36 +4,27 @@ using namespace std;
 int main()
 {
   int arr[] = {5, 2, 8, 1, 3};
-
   cout << "Original array: ";
   for (int i = 0; i < 5; i++)
     cout << arr[i] << " ";
   cout << endl;
 
-  for (int i = 0; i < 5; i++)
+  for (int i = 1; i < 5; i++)
   {
-    int min = i;
+    int temp = arr[i];
+    int j = i - 1;
 
-    for (int j = i + 1; j < 5; j++)
+    while (j >= 0 && arr[j] > temp)
     {
-      if (arr[j] < arr[min])
-      {
-        min = j;
-      }
+      arr[j + 1] = arr[j];
+      j--;
     }
 
-    if (min != i)
-    {
-      int temp = arr[i];
-      arr[i] = arr[min];
-      arr[min] = temp;
-    }
+    arr[j + 1] = temp;
   }
 
   cout << "Sorted array: ";
   for (int i = 0; i < 5; i++)
     cout << arr[i] << " ";
   cout << endl;
-
-  return 0;
 }
