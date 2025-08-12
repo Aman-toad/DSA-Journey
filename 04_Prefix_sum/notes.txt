@@ -1,0 +1,27 @@
+folder sequence
+DSA/
+├── prefix_sum/
+│   ├── basics/
+│   │   ├── build_prefix_sum.cpp
+│   │   ├── range_sum_query.cpp
+│   │   ├── subarray_sum_equals_k.cpp
+│   │   ├── num_subarrays_sum_k.cpp
+│   │   └── equilibrium_index.cpp
+│   │
+│   ├── applications/
+│   │   ├── multiple_range_queries.cpp
+│   │   ├── min_index_prefix_ge_k.cpp
+│   │   ├── count_subarrays_divisible_by_k.cpp
+│   │   └── kadane_with_prefix_sum.cpp
+│   │
+│   ├── 2d_prefix_sum/
+│   │   ├── build_2d_prefix.cpp
+│   │   ├── rectangle_sum_query.cpp
+│   │   ├── max_sum_submatrix.cpp
+│   │   └── matrix_update_with_prefix.cpp
+│   │
+│   ├── prefix_sum_template.cpp 
+
+
+Learning and tricky cases:-
+
